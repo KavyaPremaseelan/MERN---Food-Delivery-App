@@ -15,6 +15,12 @@
     width: 120px;
 }
 
+.add-img-upload img
+{
+    width: 120px;
+    height: 100px;
+}
+
 .add-product-name,.add-product-description{
     width: max(40%,280px);
 }
