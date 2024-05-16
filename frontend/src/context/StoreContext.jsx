@@ -14,7 +14,8 @@ const StoreContextProvider = (props) => {
 
     const addToCart = async (itemId) =>
     {
-        console.log(itemId)
+        const ids = food_list.map(item => item._id);
+        console.log(ids); // Log the array of _id values
         if(!cartItems[itemId])
         {
             setCartItems((prev)=>({...prev,[itemId]:1}))
